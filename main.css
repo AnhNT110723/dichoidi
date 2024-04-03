@@ -1,0 +1,49 @@
+h1 {
+
+    font-family: 'Times New Roman', Times, serif;
+    /* Thay đổi font chữ */
+    font-style: italic;
+    font-size: 50px;
+    text-align: center;
+    color: #3c763d;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#yes {
+    padding-left: 200px;
+}
+
+#no {
+    padding-right: 200px;
+}
+
+
+.img {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+/* button */
+
+.btn-container button {
+    width: 100px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50; /* Màu nền của button */
+    color: white; /* Màu chữ */
+    border-color: white ;
+    border-radius: 5px; /* Bo tròn góc */
+    cursor: pointer; /* Đổi con trỏ chuột thành hình bàn tay khi hover */
+    
+}
+
+.btn-container button:hover {
+    background-color: #45a049; /* Thay đổi màu nền khi hover */
+}
